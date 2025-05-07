@@ -1,0 +1,8 @@
+aiohttp
+aiohttp_socks
+beautifulsoup4
+dnspython
+structlog
+tenacity
+tldextract
+tqdm
