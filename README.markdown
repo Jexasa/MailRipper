@@ -2,19 +2,15 @@
 
 **MailRipper** is a stealthy OSINT tool for extracting email usernames from a domain using web scraping, Hunter.io API queries, and email pattern generation.
 
-```
-+---+---+---+ 
-| M | R | P | 
-+---+---+---+ 
- MailRipper
- Version: 0.2.1
+``` 
+ Version: 1.2.0
  Date: 05/07/25
  Author: KitsiosM (ksexasa)
 ```
 
 ## Features
 
-- Scrapes websites with stealth (user-agent rotation, delays, proxy support).
+- Scrapes websites as stealthy as possible (user-agent rotation, delays, proxy support).
 - Queries Hunter.io API for verified emails and patterns.
 - Generates emails from names with MX record validation.
 - Supports txt, JSON, CSV output formats.
@@ -33,7 +29,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mail-ripper.git
+   git clone https://github.com/Jexasa/mail-ripper.git
    cd mail-ripper
    ```
 
