@@ -35,10 +35,12 @@
 
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt 
    ```
 
-3. (Optional) Set up Tor for proxy:
+3. Set up Tor for proxy (Optional):
    - Install Tor: `sudo apt install tor` (Linux) or equivalent.
    - Start Tor service: `tor` (runs on `socks5://localhost:9050` by default).
    - Verify Tor is running: `curl --socks5 localhost:9050 https://check.torproject.org`.
@@ -91,10 +93,6 @@ Or set environment variables:
 export MAIL_RIPPER_API_KEY=YOUR_API_KEY
 export MAIL_RIPPER_PROXY=socks5://localhost:9050
 ```
-
-## Contributing
-
-Fork, create a feature branch, commit changes, and open a pull request. Follow the contribution guidelines in `CONTRIBUTING.md`.
 
 ## License
 
